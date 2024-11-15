@@ -158,13 +158,13 @@ const DepartmentHeadCard: React.FC<DepartmentHeadProps> = ({
 const departmentHeads: DepartmentHeadProps[] = [
   {
     fullName: "Dr. Faruk Kabir",
-    designation: "Consultant Radiologist",
+    designation: "Md Abuja",
 
-    qualification: "M.D., Ph.D. in Cardiovascular Medicine",
+    qualification: "Consultant Radiologist",
     imageUrl: "/placeholder.svg?height=128&width=128",
     contactInfo: {
       email: "faruk@foresighthospital.com",
-      phone: "+1 (555) 123-4567",
+      phone: "+234(0)7044924324",
     },
     socialLinks: {
       linkedin: "https://linkedin.com/in/aisharahman",
@@ -179,10 +179,10 @@ const departmentHeads: DepartmentHeadProps[] = [
     imageUrl: kdmd,
     contactInfo: {
       email: "halima@foresighthospital.com",
-      phone: "+1 (555) 234-5678",
+      phone: "+2348033706899",
     },
     socialLinks: {
-      facebook: "https://facebook.com/jameschen",
+      twitter: "https://twitter.com/mariarodriguez",
       linkedin: "https://linkedin.com/in/jameschen",
     },
   },
@@ -194,7 +194,7 @@ const departmentHeads: DepartmentHeadProps[] = [
     imageUrl: "/placeholder.svg?height=128&width=128",
     contactInfo: {
       email: "aliyu.koko@foresighthospital.com",
-      phone: "+1 (555) 345-6789",
+      phone: "+2347034683937",
     },
     socialLinks: {
       twitter: "https://twitter.com/mariarodriguez",
@@ -208,7 +208,7 @@ const departmentHeads: DepartmentHeadProps[] = [
     imageUrl: mdgm,
     contactInfo: {
       email: "ishaq@foresighthospitals.com",
-      phone: "+1 (555) 456-7890",
+      phone: "+2348038669855",
     },
     socialLinks: {
       facebook: "https://facebook.com/michaelokafor",

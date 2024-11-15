@@ -18,13 +18,13 @@ const historyItems = [
     year: 2021,
     title: "Expansion",
     description:
-      "Foresight Hospitals established with its first branch in Gombe",
+      "Foresight Hospitals established with its Second branch in Gombe",
   },
   {
     year: 2023,
     title: "Expansion",
     description:
-      "Foresight Hospitals established with its first branch in Sokoto ",
+      "Foresight Hospitals established with its third branch in Sokoto ",
   },
   {
     year: 2024,

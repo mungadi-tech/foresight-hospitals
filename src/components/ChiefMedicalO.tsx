@@ -17,7 +17,7 @@ export function ChiefMedicalOfficer() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2 text-2xl font-bold text-gray-800">
               <Stethoscope className="h-6 w-6 text-blue-600" />
-              Meet Our General Managing Director
+              Meet Our Group Managing Director
             </CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col md:flex-row gap-6 items-center md:items-start">
