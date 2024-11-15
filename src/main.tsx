@@ -26,7 +26,7 @@ const queryClient = new QueryClient();
 if (!rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
-    <Theme accentColor="orange">
+    <Theme accentColor="blue">
       <Toaster />
       <QueryClientProvider client={queryClient}>
         <RouterProvider router={router} />

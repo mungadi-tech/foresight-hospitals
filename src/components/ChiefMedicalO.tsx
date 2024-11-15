@@ -1,8 +1,8 @@
-import { Badge, Card } from "@radix-ui/themes";
+import { Avatar, Badge, Card } from "@radix-ui/themes";
 import { CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
 import { Stethoscope } from "lucide-react";
-import * as Avatar from "@radix-ui/react-avatar";
+// import * as Avatar from "@radix-ui/react-avatar";
 import gmd from "../assets/gmd.jpeg";
 
 export function ChiefMedicalOfficer() {
@@ -26,19 +26,13 @@ export function ChiefMedicalOfficer() {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <Avatar.Root className="inline-flex h-32 w-32 select-none items-center justify-center overflow-hidden rounded-full bg-blue-200">
-                <Avatar.Image
-                  className="h-full w-full object-cover"
-                  src={gmd}
-                  alt="Dr. shamsu"
-                />
-                <Avatar.Fallback
-                  className="text-blue-600 text-2xl font-medium flex h-full w-full items-center justify-center bg-blue-100"
-                  delayMs={600}
-                >
-                  EC
-                </Avatar.Fallback>
-              </Avatar.Root>
+              <Avatar
+                size={"9"}
+                radius="full"
+                alt="Dr. shamsu"
+                src={gmd}
+                fallback=" EC"
+              />
             </motion.div>
 
             <motion.div

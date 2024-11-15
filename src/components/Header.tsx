@@ -25,7 +25,7 @@ export function Header() {
             ))}
           </nav>
           <Button asChild size={"4"} className="bg-blue-400">
-            <Link to="/apply">Appointmnet</Link>
+            <Link to="/">Appointments</Link>
           </Button>
           <div className="md:hidden">
             <Sheet>

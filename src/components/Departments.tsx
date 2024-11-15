@@ -186,7 +186,7 @@ const ProgramCard: React.FC<{ program: Program }> = ({ program }) => (
     </CardContent>
     <CardFooter className="flex justify-between items-center">
       <Button>
-        <Link href="/apply">Appointment</Link>
+        <Link href="/">Appointment</Link>
       </Button>
     </CardFooter>
   </Card>
