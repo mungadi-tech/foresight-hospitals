@@ -10,7 +10,7 @@ import bg from "../assets/front.jpeg";
 const branches = [
   {
     name: "Sokoto",
-    address: "123 Hospital Road, Sokoto",
+    address: "No 50 Maikahon Karo Road, off Sultan Ibrahim Dasuki Road, Sokoto",
     phone: "+234 801 234 5678",
     hours: "24/7",
     image: bg,

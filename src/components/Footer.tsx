@@ -141,7 +141,10 @@ export function Footer() {
               </li>
               <li className="flex items-start">
                 <MapPin size={16} className="mr-2 mt-1 text-blue-400" />
-                <span>NO.7 THABA TSEKA STREET WUSE 2 ABUJA</span>
+                <span>
+                  No 50 Maikahon Karo Road, off Sultan Ibrahim Dasuki Road,
+                  Sokoto
+                </span>
               </li>
               <li className="flex items-start">
                 <MapPin size={16} className="mr-2 mt-1 text-blue-400" />
